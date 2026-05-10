@@ -1,0 +1,257 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Beach Photography and ocean vibes</title>
+	<link rel="stylesheet" href="css/bootstrap_grid.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@500;700;800&display=swap" rel="stylesheet">
+	<style>
+	.project-container {
+		background-color: #eaf4ff;
+		max-width: 1200px;
+		margin: 0 auto;
+		box-shadow: 0 0 30px rgba(0,0,0,0.1);
+	}
+
+	.full-width-image {
+		width: 100%;
+		height: 500px;
+		object-fit: cover;
+	}
+
+	.breadcrumb {
+		padding: 20px;
+		background-color: #d8ebff;
+		font-family: 'Poppins', sans-serif;
+		font-size: 14px;
+	}
+
+	.breadcrumb a {
+		color: black;
+		text-decoration: none;
+	}
+
+	.breadcrumb a:hover {
+		text-decoration: underline;
+	}
+
+	.project-title {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		font-size: 50pt;
+		transform: translate(-50%, -50%);
+		color: white;
+		text-align: center;
+		text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+		font-family: 'Playfair Display', serif;
+	}
+
+	.image-container {
+		position: relative;
+	}
+
+	h2{
+		font-family: 'Playfair Display', serif;
+	}
+
+	p, li{
+		font-family: 'Poppins', sans-serif;
+		line-height: 1.8;
+	}
+	
+	/* Slider Styles */
+	.project-slider {
+		position: relative;
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.slider-container {
+		display: flex;
+		transition: transform 0.5s ease;
+		width: 300%;
+	}
+
+	.slider-slide {
+		width: 33.33%;
+		flex-shrink: 0;
+	}
+
+	.slider-slide img {
+		width: 100%;
+		height: 500px;
+		object-fit: cover;
+	}
+
+	.slider-controls {
+		position: absolute;
+		bottom: 20px;
+		left: 50%;
+		transform: translateX(-50%);
+		display: flex;
+		gap: 10px;
+	}
+
+	.slider-dot {
+		width: 10px;
+		height: 10px;
+		background-color: rgba(255,255,255,0.5);
+		border-radius: 50%;
+		cursor: pointer;
+		transition: background-color 0.3s;
+	}
+
+	.slider-dot.active {
+		background-color: white;
+	}
+	
+	.slider-toggle {
+		display: none;
+	}
+
+	#slide1:checked ~ .slider-container {
+		transform: translateX(0);
+	}
+
+	#slide2:checked ~ .slider-container {
+		transform: translateX(-33.33%);
+	}
+
+	#slide3:checked ~ .slider-container {
+		transform: translateX(-66.66%);
+	}
+</style>
+</head>
+
+<body>
+	<nav>
+		<ul>
+			<li><a href="../index.html#contact">contact</a></li>
+			<li>works</li>
+			<li>expertience</li>
+			<li class="empty"></li>
+			<li><a href="profil.html">profil</a></li>
+			<li><a href="https://x.com/anzanul" target="_blank">twitter</a></li>
+			<li>linkedin</li>
+		</ul>
+	</nav>
+
+	<div class="project-container">
+		<div class="image-container">
+			<img src="./img/Bontolan.jpg" class="full-width-image" alt="Bontolan">
+			<h1 class="project-title">Beach Photography<br>for refreshing eye</h1>
+		</div>
+		<div class="breadcrumb">
+			<a href="../index.html">Home</a> / Beach Photography for refreshing eye
+		</div>
+		<section class="project" style="padding-top: 50px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>Project Overview</h2>
+						<p>Project fotografi ini menampilkan keindahan pantai dengan suasana yang tenang dan alami.
+						Foto-foto diambil untuk menangkap pemandangan laut, ombak, langit, dan suasana sunset
+						yang memberikan kesan nyaman serta aesthetic. Project ini dibuat sebagai bentuk
+						dokumentasi sederhana terhadap keindahan alam.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project blue">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>Photography Concept</h2>
+						<p>Konsep fotografi yang digunakan berfokus pada suasana pantai yang natural dan menenangkan:</p>
+						<ul>
+							<li>Suasana pantai yang tenang dan natural</li>
+							<li>Pemandangan laut dan ombak</li>
+							<li>Nuansa sunset dan langit sore</li>
+							<li>Komposisi foto sederhana dan aesthetic</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>Creative Process</h2>
+						<p>Semua foto yang di ambil menggunakan kamera smartphone dengan yang berfokus pada:</p>
+						<ul>
+							<li>Penggunaan cahaya alami</li>
+							<li>Pengambilan gambar dari berbagai sudut</li>
+							<li>Editing sederhana untuk warna dan kontras</li>
+							<li>Menyesuaikan komposisi agar terlihat aesthetic</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project blue">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>Key Outcomes</h2>
+						<p>Foto-foto dari project ini menghasilkan:</p>
+						<ul>
+							<li>Foto pantai yang alami</li>
+							<li>Nuansa visual yang aesthetic</li>
+							<li>Pengalaman sederhana namun berkesan </li>
+							<li>Dokumentasi media sosial untuk menarik pengunjung lain</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>Project Gallery</h2>
+						<div class="project-slider">
+							<input type="radio" name="slider" id="slide1" class="slider-toggle" checked>
+							<input type="radio" name="slider" id="slide2" class="slider-toggle">
+							<input type="radio" name="slider" id="slide3" class="slider-toggle">
+							
+							<div class="slider-container">
+								<div class="slider-slide">
+									<img src="./img/Bontolan.jpg" alt="Dashboard App">
+								</div>
+								<div class="slider-slide">
+									<img src="./img/Bontolan1.jpg" alt="Cosmetics Project">
+								</div>
+								<div class="slider-slide">
+									<img src="./img/oyama1.jpeg" alt="iPad App">
+								</div>
+							</div>
+							
+							<div class="slider-controls">
+								<label for="slide1" class="slider-dot"></label>
+								<label for="slide2" class="slider-dot"></label>
+								<label for="slide3" class="slider-dot"></label>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<footer id="contact">
+			<h2> Still learning, Still growing, Still coding 💻 </h2>
+				<p>Made with ❤️ - Hilda 2026</p>
+			</footer>
+			
+		</body>
+</html>
+

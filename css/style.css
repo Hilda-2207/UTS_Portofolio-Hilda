@@ -1,0 +1,173 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	background-color: #cfe8ff;
+	color: #1b2a41;
+}
+
+body, ul{
+	margin: 0;
+	padding:0;
+}
+
+h1,h2,.skill-list{
+	font-family: 'Playfair Display', serif;
+}
+
+img{
+	max-width: 100%;
+	border-radius: 15px;
+}
+
+nav{
+	background: linear-gradient(to right, #4f8fcf, #7bb6f0);
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+}
+
+header{
+	top:70px;
+	position: relative;
+	margin-bottom: 180px;
+	background: linear-gradient(to bottom, #d8ecff, #b8dcff);
+	padding: 60px 0;
+}
+
+nav ul li{
+	display: inline-block;
+	margin: 0 18px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+nav ul{
+	margin: 0 auto;
+	text-align: center;
+	padding: 25px;
+}
+
+h1{
+	font-size: 85px;
+	line-height: 120%;
+	color: #17406d;
+}
+
+h2{
+	font-size: 38px;
+	line-height: 130%;
+	color: #21558a;
+}
+
+h1,h2{
+	font-weight: bold;
+}
+
+p{
+	line-height: 180%;
+	font-size: 16px;
+}
+
+ul li{
+	list-style: none;
+	margin: 10px 0;
+}
+
+.button{
+	border: none;
+	font-size: 15px;
+	border-radius: 30px;
+	text-decoration: none;
+	color: white;
+	background-color: #3f7fc4;
+	padding: 14px 28px;
+	margin-top:40px;
+	display: inline-block;
+	transition: 0.3s ease-in-out;
+	font-weight: 600;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.button:hover{
+	background-color: #245b96;
+	transform: translateY(-3px);
+}
+
+figcaption{
+	font-size: 12px;
+	margin-top: 10px;
+	color: #4c6a85;
+}
+
+.intro-img{
+	box-shadow: 1px 5px 30px rgba(0,0,0,0.2);
+	margin-top: 30px;
+	border-radius: 20px;
+}
+
+.skill-list{
+	text-align: center;
+	font-size: 42px;
+	line-height: 170%;
+	margin-bottom:130px;
+	color: #245b96;
+}
+
+.project{
+	margin: 40px 0;
+	padding: 60px;
+	border-radius: 25px;
+}
+
+.blue{
+	background-color: #dcebff;
+}
+
+.project .button{
+	margin-top: 15px;
+}
+
+footer{
+	text-align: center;
+	padding: 80px 20px;
+	background: linear-gradient(to right, #4f8fcf, #7bb6f0);
+	color: white;
+	margin-top: 80px;
+}
+
+footer h2{
+	font-size: 45px;
+	margin-bottom:40px;
+	color: white;
+}
+
+.right-alignment{
+	text-align: right;
+}
+
+li.empty{
+	width: 90px;
+	border-top: 2px solid white;
+	top:-5px;
+	position: relative;
+}
+
+nav li a{
+	text-decoration: none;
+	color: white;
+	transition: 0.3s;
+}
+
+nav li a:hover{
+	color: #dff1ff;
+}
+
+a{
+	text-decoration: none;
+}
+
+.container{
+	padding-top: 20px;
+}
